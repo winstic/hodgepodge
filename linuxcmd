@@ -1,0 +1,6 @@
+#查看当前使用的shell
+echo $SHELL
+
+#mac item zsh 自定义命令提示符号，zshrc文件下添加export PS1...
+vim ~/.zshrc
+export PS1="%m:%d$ "
